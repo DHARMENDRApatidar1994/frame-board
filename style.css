@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+#main h3{
+    position: absolute;
+    color: rgb(221, 149, 15);
+    z-index: 1;
+    font-size: 5vmax;
+    top: -1.7%;
+    right: 30%;
+    
+}
+#main h4{
+    position: absolute;
+    color: rgb(241, 142, 13);
+    z-index: 1;
+    font-size: 5vmax;
+    top: -1.7%;
+    left: 30%;
+    
+}
+.bg{
+    width: 55%;
+    height: 90%;
+    background-color: rgb(49, 46, 46);
+}
+.bg h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    letter-spacing: 4vmax;
+    font-size: 8vmax;
+    margin-top: 3vmax;
+    position: relative;
+    z-index: 1;
+    
+}
+.bg .matter1{
+    width: 90%;
+    height: 40%;
+    background-color: rgb(87, 84, 84,0.5);
+    transform: translate( 10vmax);
+    margin-top: -4vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 2px 2px 20px gray;
+
+    
+    
+}
+.bg .matter1 h2{
+
+    color: white;
+    transform: translateY(2vmax);
+    margin-left: 5vmax;
+}
+.matter1 h6{
+    font-size: 1vmax;
+    color: white;
+    margin-left: 5vmax;
+    /* transform: translateY(4vmax); */
+}
+.matter1 p{
+    width: 70%;
+    font-size: 1vmax;
+    color: white;
+    margin-left: 5vmax;
+    /* transform: translateY(6vmax); */
+    line-height: 1.5vmax;
+}
+.bg1 .frame1{
+    width: 120%;
+    height: 60%;
+    background-color: greenyellow;
+    margin-left: -4vmax;
+    display: flex;
+    margin-top: -3vmax;
+}
+.frame1 .matter2{
+    width: 55%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-left: -2vmax;
+    box-shadow: 2px 2px 20px rgb(58, 55, 55);
+    
+}
+.frame1:hover .matter2{
+    
+        animation: hii 3s linear 1;
+    
+}
+.matter2 p{
+    width: 40%;
+    
+    margin-left: 10vmax;
+    font-size: 1vmax;
+}
+.frame1 img{
+    width: 60%;
+    height: 100%;
+    transform: translate(-2vmax, -3vmax);
+    box-shadow: 2px 2px 20px rgb(58, 55, 55);
+    
+}
+.frame1:hover img{
+    animation: move 3s linear 1;
+}
+#main1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid rgb(53, 52, 52);
+}
+.bg1{
+    width: 55%;
+    height: 100%;
+    background-color: rgb(49, 46, 46);
+}
+.bg1 .frame2{
+    width: 120%;
+    height: 60%;
+    background-color: tomato;
+    margin-left: -4vmax;
+    display: flex;
+    transform: translateY(13vmax);
+    z-index: 1;
+}
+.frame2 .matter3{
+    width: 55%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-right: -15vmax;
+    margin-left: 2vmax;
+    transform: translateY(8vmax);
+    z-index: 1;
+    box-shadow: 2px 2px 20px rgb(58, 55, 55);
+
+}
+.frame2:hover .matter3{
+    
+    animation: hii 3s linear 1;
+
+}
+.matter3 p{
+    width: 60%;
+    margin-left: 5vmax;
+    font-size: 1vmax;
+}
+.frame2 img{
+    width: 140%;
+    height: 100%;
+    transform: translateY(2vmax);
+    margin-right: -2vmax;
+    box-shadow: 2px 2px 20px rgb(58, 55, 55);
+    
+}
+.frame2:hover img{
+    animation: move 3s linear 1;
+}
+#main2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(53, 52, 52);
+    z-index: -2;
+}
+.bg2{
+    width: 55%;
+    height: 100%;
+    background-color: rgb(49, 46, 46);
+    display: flex;
+    border: 1px solid rgb(49, 46, 46);
+    /* z-index: -1; */
+
+}
+.bg2 .frame3{
+    width: 120%;
+    height: 60%;
+    background-color: rgb(95, 56, 6);
+    /* margin-left: -4vmax; */
+    display: flex;
+    margin-top: 35vmax;
+    z-index: 1;
+}
+.frame3 .matter4{
+    width: 55%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-left: -2vmax;
+    box-shadow: 2px 2px 20px rgb(58, 55, 55);
+
+}
+.frame3:hover .matter4{
+    
+    animation: hii 3s linear 1;
+
+}
+.matter4 p{
+    width: 40%;
+    margin-left: 10vmax;
+    font-size: 1vmax;
+}
+.frame3 img{
+    width: 50%;
+    height: 100%; 
+    transform: translateX(-2vmax);
+    margin-top: -2vmax;
+    box-shadow: 2px 2px 20px rgb(58, 55, 55);
+}
+.frame3:hover img{
+    animation: move 3s linear 1;
+}
+#main3{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(53, 52, 52);
+}
+#main3 h1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    transform: translateX(-30vmax);
+    color: white;
+
+}
+.bg3{
+    width: 55%;
+    height: 70%;
+    background-color: rgb(49, 46, 46);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-left: 4vmax;
+
+
+}
+.bottom{
+    width: 70%;
+    height: 20%;
+    background-color: rgb(26, 25, 25);
+    transform: translateY(3vmax);
+    margin-right: -2vmax;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom span{
+    font-size: 5vmax;
+    font-weight: 100;
+    text-align: center;
+  
+    
+}
+@keyframes move{
+    0%{
+        transform: translateX(15vmax);
+    }
+    100%{
+        transform: translateX(0max);
+
+    }
+    
+}
+@keyframes hii {
+    0%{
+        transform: translateX(-15vmax);
+    }
+    100%{
+        transform: translateX(0vmax);
+    }
+    
+}
+
+
+@media (max-width: 600px) {
+    .bg{
+        width: 70%;
+    }
+    .matter1 h2{
+        font-size: 5vmax;
+    }
+    .matter1 h6{
+        font-size: 1.7vmax;
+    }
+    .matter1 p{
+        font-size: 1.7vmax;
+        line-height: 2vmax;
+    }
+    .bg1{
+        width: 70%;
+    }
+    
+    
+    .matter2 p{
+        width: 60%;
+        margin-left: 5vmax;
+        font-size: 1.5vmax;
+    }
+    .matter2 h2{
+        font-size: 2.5vmax;
+            }
+            .matter2 h1{
+                font-size: 2vmax;
+            }
+    .bg2{
+        width: 70%;
+    }
+    .bg1 .frame2{
+        margin-top: 10vmax;
+        z-index: 9999;
+    }
+    .bg2 .frame3{
+        margin-top: 61vmax;
+        /* margin-left: 2vmax; */
+    }
+    .matter3 p{
+        font-size: 1.5vmax;
+    }
+    .matter3 h2{
+        font-size: 2.5vmax;
+            }
+            .matter3 h1{
+                font-size: 2vmax;
+            }
+    .bg3{
+        width: 70%;
+        /* margin-left: 2vmax; */
+        
+    }
+    .matter4 h2{
+font-size: 2.5vmax;
+    }
+    .matter4 h1{
+        font-size: 2vmax;
+    }
+    .matter4 p{
+        width: 60%;
+        margin-left: 5vmax;
+        font-size: 1.5vmax;
+        
+    }
+    #main3 h1{
+        align-items:flex-end;
+        transform: translateX(-20vmax);
+        margin-bottom: 3vmax;}
+   
+}
+
